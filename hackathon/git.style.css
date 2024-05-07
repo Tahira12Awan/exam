@@ -1,0 +1,137 @@
+.white{
+    background: rgb(0,0,0);
+background: linear-gradient(150deg, rgba(0,0,0,0) 66%, rgba(221,160,221,1) 100%);
+    height: 600px;
+    width: 100%;
+}
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    margin-left: 100px;
+    margin-top: 4px;
+    color: darkmagenta;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.navdiv{
+    display: inline-flex;
+   justify-content: space-between;
+    margin-top: 30px;
+}
+.li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-top: 20px;
+}
+.li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 25px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.button{
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 60px;
+    height: 35px;
+    width: 130px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.lis{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    margin-left: 300px;
+    color: black;
+    margin-top: 10px;
+}
+.lis a{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.rounded{
+    margin-top: 100px;
+    margin-left: 800px;
+    height: 300px;
+    width: 500px;
+}
+.p{
+    margin-top: -350px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 550px;
+    font-weight: 700;
+}
+.p2{
+    margin-top: -20px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 550px;
+    font-weight: 700;
+    color: rgba(221,160,221,1) ;
+}
+.para{
+    width: 400px;
+    margin-left: 200px;
+}
+.buton{
+    margin-left: 200px;
+    height: 45px;
+    border: solid royalblue;
+    width: 160px;
+    background-color: royalblue;
+color: white;
+border-radius: 4px;
+}
+.logo{
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-para {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .main-img {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .main-btn {
+        width: auto;
+        margin-top: 20px;
+    }
+}
